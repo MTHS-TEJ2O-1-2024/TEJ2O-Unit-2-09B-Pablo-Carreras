@@ -51,7 +51,7 @@ input.onButtonPressed(Button.A, function () {
 
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
-    basic.showString(" Score : + Score ")
+    basic.showString(" Score : " + score)
     basic.pause(2000)
     basic.showIcon(IconNames.Happy)
 })
